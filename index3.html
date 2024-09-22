@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html3</title>
+    <style>
+        body{
+            /* 태그명은 바로 적는다 */
+            margin:0;
+        }
+        /* class는 . 을 붙여서 적는다 */
+        .div2{
+            background: green;
+            height: 300px;
+        }
+        .div3{
+            height: 100px;
+            width: 500px;
+            background: blue;
+        }
+        /* 
+            스타일 점수
+            태그명 : 1점
+            클래스명 : 10점
+            아이디명 : 100점
+            inline style 속성: 1000점
+
+        */
+
+        p{
+            /* color : 글자색 */
+            color:brown;
+            /* font-family : 글자체 설정 */
+            font-family: '궁서체';
+            /* font-size : 글자 크기 설정, 기본값 16px */
+            font-size: 20px;
+            /* font-weight : 글자 굵기 설정 */
+            font-weight: bold;
+            /* letter-spacing : 글자간 간격 설정, 기본값 0px */
+            letter-spacing: 10px;
+            
+        }
+
+        .p-2{
+            color:black;
+            font-family: '맑은 고딕';
+            letter-spacing: 0;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <!-- body에 들어가는 거의 모든 태그는 style 속성 보유 -->
+     <!-- 태그 옆에 바로 style 넣는 것을 inline -->
+    <div style="border:1px solid red; height:300px;">
+        <p>첫번째 상자</p>
+    </div>
+
+    <!-- style을 별도로 작성하려면 class라는 별칭을 부여 -->
+    <div class="div2">
+        <p class="p-2" style="color: red;">두번째 상자</p>
+    </div>
+
+    <div class="div3">
+        <p>세번째 상자</p>
+    </div>
+    
+</body>
+</html>

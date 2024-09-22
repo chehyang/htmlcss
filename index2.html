@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html2</title>
+</head>
+<body>
+    <!-- div :  구간을 나눈다 -->
+     <div style = "background: yellowgreen;">
+       
+        <!-- h1 ~ h6 : 제목 -->
+        <h2> 제목</h2>
+
+        <!-- p : 본문글 -->
+         <p> 본문글 - 고양이는 귀엽습니다 </p>
+
+         <!-- a : 하이퍼링크(이동) -->
+          <a href = "./index.html"> 출처 </a>
+
+          <!-- img : 이미지 띄우기 src -->
+           <img src = "./cat.jpg" alt="사진없음" widht="100px" height="200px">
+    
+    </div>
+
+    <div style = "background: lightgray;">
+        <!-- table : 표 만들기 (tr, td와 함께 사용) -->
+        <table>
+            <tr>
+                <th>번호</th>
+                <th>과일</th>
+                <th>색깔</th>
+                <th>특징</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>사과</td>
+                <td>빨강</td>
+                <td>딱딱하고 달다</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>딸기</td>
+                <td>빨강</td>
+                <td>물렁하고 달다</td>
+            </tr>
+        </table>
+
+        <!-- ul, ol : 세로로 목록을 생성 (li 태그와 함께 사용) -->
+         <ul style ="list-style-type: square;">
+            <li> 수박 </li>
+            <li> 토마토 </li>
+            <li> 당근 </li>
+            <li> 배추 </li>
+         </ul>
+
+         <!-- 챗 GPT에게 type="I"라고 하면 로마자 숫자로 표기할 수 있게 된다고 들었다. -->
+         <ol>
+            <li> 수박 </li>
+            <li> 토마토 </li>
+            <li> 당근 </li>
+            <li> 배추 </li>
+         </ol> 
+
+    </div>
+
+    <!-- hr : 가로선 긋기 -->
+    <!-- br : 줄 바꾸기 -->
+     <hr> <hr>
+     <br> <br>
+
+     <div style = "border:2px solid deepskyblue">
+        <!-- 사용자 입력 : form, input, textarea, select, option, label -->
+         <form>
+            <label> 아이디 </label>
+            <!-- input : 한줄로 사용자에게 입력을 받음, type과 같이 쓰임 -->
+            <input type = "text">
+            
+            <br>
+            <label> 비밀번호 </label>
+            <input type = "password"> 
+
+            <br>
+            <label> 이메일 </label>
+            <input type = "email"> 
+
+            <br>
+            <label> 생년월일 </label>
+            <input type="date">
+
+            <br>
+            <label> 동의 </label>
+            <input type = "checkbox">
+
+            <br>
+            <label> 남자 </label>
+            <input type="radio" name="gender" value="male">
+
+            <label> 여자 </label>
+            <input type="radio" name="gender" value="female">
+
+            <br>
+            <!-- select : 선택 목록(option과 함께 사용) -->
+             <select>
+                <option> 10대 </option>
+                <option> 20대 </option>
+                <option> 30대 </option>
+                <option> 40대 </option>
+                <option> 50대 </option>
+             </select>
+
+             <br>
+             <textarea></textarea>
+
+             <br>
+             <input type = "submit">
+
+         </form>
+     </div>
+     
+     <!-- video, audio, canvas -->
+    
+</body>
+</html>
