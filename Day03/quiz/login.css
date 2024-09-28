@@ -1,0 +1,45 @@
+.kakao {
+  background-color: #fedc00;
+  border: 1px solid #fedc00;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 12px 80px;
+}
+
+.apple {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  font-weight: 700;
+  padding: 12px 80px;
+}
+
+.facebook {
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+  border-radius: 4px;
+  padding: 12px 80px;
+  font-weight: 700;
+
+  color: white;
+}
+
+.google {
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: 12px 80px;
+  font-weight: 700;
+
+  color: gray;
+}
+
+.apple1 {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 12px 80px;
+  font-weight: 700;
+
+  color: white;
+}

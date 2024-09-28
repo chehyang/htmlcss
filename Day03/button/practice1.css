@@ -1,0 +1,23 @@
+.box-model {
+  background-color: #98eccb;
+  border: 1px solid #98eccb;
+  border-radius: 4px;
+  padding-top: 3px;
+  font-weight: 600;
+}
+
+.background {
+  background-color: #9dd7ff;
+  border: 1px solid #9dd7ff;
+  border-radius: 4px;
+  padding-top: 3px;
+  font-weight: 600;
+}
+
+.typography {
+  background-color: #c9c5ff;
+  border: 1px solid #c9c5ff;
+  border-radius: 4px;
+  padding-top: 3px;
+  font-weight: 600;
+}
