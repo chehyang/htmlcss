@@ -1,0 +1,28 @@
+.container {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px, 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-self: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.title {
+  display: flex;
+}

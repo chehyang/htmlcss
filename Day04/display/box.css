@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 150px;
+  height: 100px;
+}
+
+.color1 {
+  background-color: #1abc9c;
+}
+
+.color2 {
+  background-color: #2ecc71;
+}
+
+.color3 {
+  background-color: #16a085;
+}
+
+.color4 {
+  background-color: #27ae60;
+}
+
+.color5 {
+  background-color: #34495e;
+}
+
+.color5 {
+  background-color: #f1c40f;
+}
+
+.color6 {
+  background-color: #e67e22;
+}
+
+.color7 {
+  background-color: #f39c12;
+}
+
+.color8 {
+  background-color: #d35400;
+}

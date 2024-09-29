@@ -1,0 +1,28 @@
+.travel {
+  /* 자식을 수평으로 배치하기 */
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.album {
+  width: 100px;
+  height: 100px;
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.right {
+  margin-right: 10px;
+}
+
+.top {
+  margin-top: 10px;
+}
