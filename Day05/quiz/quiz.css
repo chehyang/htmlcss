@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  /* 색, 폰트 */
+  font-family: "Pretendard-Regular";
+  color: white;
+}
+
+.hotel1 {
+  background-image: url("hotel1.jpg");
+  /* 50% 50% -> x축 y축 정가운데 */
+  background-position: 50% 50%;
+}
+
+.hotel2 {
+  background-image: url("hotel2.jpg");
+}
+.hotel3 {
+  background-image: url("hotel3.jpg");
+}
+.hotel4 {
+  background-image: url("hotel4.jpg");
+}
+
+.hotel5 {
+  background: linear-gradient(to right, red, blue);
+}
+
+.category {
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 40px;
+}
+
+.sub {
+  font-size: 10px;
+}
