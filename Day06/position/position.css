@@ -1,0 +1,45 @@
+.body {
+  height: 300vh;
+  background-color: #d1d8e0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: fit-content;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: #fc5c65;
+  position: fixed;
+  top: 0px;
+}
+.blue {
+  background-color: #45aaf2;
+  position: relative;
+}
+.orange {
+  background-color: #fd9644;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  z-index: 1;
+}
+.green {
+  background-color: #26de81;
+  /* 포지션 위치 조정 속성, top, bottom, left, right 필수 */
+  /* relative (상대성) - 지금 위치에서 */
+  position: relative;
+}
+
+.text {
+  /* absolute는 부모의 포지션이 relative면 거기에서 기준을 잡는다 */
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}

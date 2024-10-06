@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "HakgyoansimByeolbichhaneulTTF-B";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimByeolbichhaneulTTF-B.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.album {
+  width: 200px;
+  height: 240px;
+  position: relative;
+}
+
+.album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lables {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.black {
+  background-color: black;
+  padding: 5px;
+}
+
+.purple {
+  background-color: #7d6eed;
+  padding: 5px;
+}
+
+.icon {
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.info {
+  padding: 10px;
+  font-family: "HakgyoansimByeolbichhaneulTTF-B";
+}

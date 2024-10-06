@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.link {
+  color: #1f1f1f;
+  font-family: "Pretendard-Regular";
+  padding: 14px 16px;
+  border-radius: 24px;
+  transition: all 0.2s;
+}
+
+.link:hover {
+  background-color: #f2f2f2;
+}
+
+.ablyColor {
+  color: #ff5160;
+}
