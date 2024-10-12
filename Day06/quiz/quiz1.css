@@ -1,9 +1,16 @@
 @font-face {
-  font-family: "HakgyoansimByeolbichhaneulTTF-B";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimByeolbichhaneulTTF-B.woff2")
-    format("woff2");
-  font-weight: 700;
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
   font-style: normal;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: fit-content;
 }
 
 .card {
@@ -23,7 +30,7 @@
   object-fit: cover;
 }
 
-.lables {
+.labels {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -32,24 +39,32 @@
   color: white;
 }
 
-.black {
+.zigzag {
   background-color: black;
   padding: 5px;
 }
-
-.purple {
-  background-color: #7d6eed;
+.delivery {
+  background-color: #7463e3;
   padding: 5px;
 }
 
 .icon {
-  color: white;
   position: absolute;
   right: 10px;
   bottom: 10px;
+  color: white;
 }
 
 .info {
   padding: 10px;
-  font-family: "HakgyoansimByeolbichhaneulTTF-B";
+  font-family: "Pretendard-Regular";
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
 }
