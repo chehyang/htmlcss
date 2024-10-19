@@ -1,0 +1,39 @@
+.sheet {
+  width: 70vw;
+  height: 80vh;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  border: 1px solid black;
+}
+
+.contents {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(13, auto);
+}
+
+.contents > .value {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.number {
+  width: 5vw;
+  height: 5vh;
+  border: 1px solid white;
+
+  padding-top: 8px;
+  text-align: center;
+}
+
+.contents > .value-field {
+  width: 8vw;
+  height: 5vh;
+  background-color: black;
+  color: white;
+}

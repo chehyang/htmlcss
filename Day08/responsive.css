@@ -1,0 +1,32 @@
+/* 박스 PC (1280px)일 때, 하늘색 */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+}
+
+/* 박스 PC (1280px)일 때, 하늘색 */
+/* 박스 table (768~1260px)일 때, 빨간색 */
+/* 박스 mobile 버전(768px) 이하일 때, 노란색 */
+
+@media screen and (max-width: 1280px) {
+  .box {
+    background-color: red;
+    .links {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    background-color: yellow;
+  }
+}
+
+/* pc버전일 때 header 홈 어바웃 Q&A */
+/* tablet 버전 이하일 때는 폰트어썸 햄버거로 대체하기 */

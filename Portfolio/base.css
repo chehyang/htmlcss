@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "LINESeedKR-Bd";
+}
+
+:root {
+  /* 색상 */
+  --color--primary: #529ad6;
+  --color--secondary: #f7c8cf;
+  --color--background: #f7f4e6;
+  --color--text: black;
+  --color--link: #c0e9ef;
+
+  /* 폰트 사이즈 */
+  --font--size--base: 16px;
+  --font--size--small: 12px;
+  --font--size--x-small: 10px;
+  --font--size--large: 20px;
+  --font--size--x-large: 24px;
+
+  /* 센터링 & 컨테이닝 */
+  --max--width--pc: 1200px;
+  --max-width--mobile: 768px;
+}

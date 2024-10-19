@@ -1,0 +1,26 @@
+.first {
+  width: 100vw;
+  background-color: var(--color--background);
+
+  display: flex;
+  justify-content: center;
+  padding: 200px 0;
+}
+
+.first > .contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.first > .contents > .intro {
+  font-size: var(--font--size--x-large);
+  color: var(--color--primary);
+  font-weight: 100;
+}
+
+.first > .contents > .intro > .subintro {
+  font-size: var(--font--size--small);
+  color: grey;
+}
